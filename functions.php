@@ -149,7 +149,6 @@ function search( $data_file_path, $device_from, $device_to, $latency ) {
             $temp = $device_from;
             $device_from = $device_to;
             $device_to = $temp;
-            echo 'reversed !';
         }
 
         $device_from_indexes = [];
